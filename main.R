@@ -75,6 +75,9 @@ row_5 = c(0.036, 0.038, 0.041, 0.038, 0.031)
 map_matrix = rbind(row_1, row_2, row_3, row_4, row_5)
 print(map_matrix)
 
+# The user is warned if their given probabilities do not add to 1 because they must if the
+# probability mass function is properly specified
+
 if (abs(matrix_sum(map_matrix) - 1) > 1e-8) {
   print("WARNING: The location given probabilities do not sum to 1")
   print(paste("Sum:", matrix_sum(map_matrix)))
