@@ -19,3 +19,5 @@ $$P(contains \ the \ object)' = P(contains \ the \ object) \times \frac{1-P(dete
 $$P(contains \ the \ object)' = \frac{P(contains \ the \ object)}{1 - P(contains \ the \ object) \times P(detection)}$$
 
 The graphic rendered by the program represents low probability of detection as blue, medium probability of detection as yellow, and the highest probability of detection as green for each sector in $$m$$.
+
+To have the anticipated user experience, please run main.R in Rstudio or a similar program other than a terminal.
