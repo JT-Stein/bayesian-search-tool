@@ -1,6 +1,9 @@
 # bayesian-search-tool
 Implemented Bayesian search to find lost items including a heat map to visualize location probabilities in R
 
+## Background
+Bayesian search theory is an application of bayesian statistics to recover lost objects. It was developed in this form by John P. Craven in 1968.
+
 ## Approach
 Let $$m$$ be a $$5x5$$ matrix where the total sum of the elements of the matrix is equal to 1:
 
