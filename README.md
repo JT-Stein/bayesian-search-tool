@@ -15,3 +15,5 @@ Once the user has input which sector was search and the object was not found, ea
 $$P(contains \ the \ object)' = P(contains \ the \ object) \times \frac{1-P(detection)}{1 - P(contains \ the \ object) \times P(detection)}$$
 
 #### The sector is not the sector being searched:
+
+$$P(contains \ the \ object)' = \frac{P(contains \ the \ object)}{1 - P(contains \ the \ object) \times P(detection)}$$
